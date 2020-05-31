@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+}
+.header{
+    width: 1920px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header p{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+.header span{
+    float:right;
+    font-size: 20px;
+    margin-right: 28px;
+}
+.header img{
+    margin:100px 0 40px 0; 
+    float: left;
+}
+.header a{
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 14px 0;
+}
+/* 导航 */
+.nav{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.nav img{
+    margin-top: 12px;
+}
+.nav p{
+    float: right;
+    line-height: 80px;
+}
+.nav p a{
+    color: #000;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 76px;
+}
+.nav p a:hover{
+    color: #e8420a;
+    border-bottom: 4px solid #e8420a;
+}
+/* 主体部分 */
+.main-wrap{
+    height: 724px;
+    background-color: #f5f5f5;
+}
+.main{
+    width: 1200px;
+    height: 724px;
+    margin: 0 auto;
+}
+.crumb{
+    line-height: 97px;
+}
+.crumb a{
+    font-size: 18px;
+    color: #333;
+}
+.hotel{
+    height: 420px;
+    padding: 15px;
+    background-color: #fff;
+}
+.hotel-left{
+    float: left;
+}
+.simg li{
+    float: left;
+    margin-left: 4px;
+}
+.simg li:first-child{
+    margin-left: 0;
+}
+.hotel-right{
+    width: 465px;
+    float: right;
+}
+.hotel-right h3{
+    font-size: 30px;
+    line-height: 94px;
+}
+.hotel-right p{
+    font-size: 20px;
+    line-height: 40px;
+    color: #666;
+}
+
